@@ -1,87 +1,65 @@
-🌌 NeonCoder AI 🌌
-Welcome to NeonCoder AI, a cutting-edge, neon-themed coding assistant built with Streamlit and powered by the Qwen2.5-coder model via Ollama. This tool empowers developers to generate Python code, visualize data with stunning graphs, and deploy apps across platforms like Docker, FastAPI, Streamlit, and AWS Lambda—all wrapped in a futuristic cyber neon interface! 🚀
-Made by Pratik (PRATIK-4751 on GitHub)Last Updated: August 04, 2025, 05:23 AM IST
+# 🌌 NeonCoder AI 🌌
 
-✨ Features ✨
+<div align="center">
 
+![NeonCoder AI Banner](https://img.shields.io/badge/NeonCoder-AI-00ff41?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 
+**Welcome to NeonCoder AI, a cutting-edge, neon-themed coding assistant built with Streamlit and powered by the Qwen2.5-coder model via Ollama.**
 
-Icon
-Feature
-Description
+*This tool empowers developers to generate Python code, visualize data with stunning graphs, and deploy apps across platforms like Docker, FastAPI, Streamlit, and AWS Lambda—all wrapped in a futuristic cyber neon interface!* 🚀
 
+**Made by [Pratik](https://github.com/PRATIK-4751)**  
+*Last Updated: August 04, 2025, 05:23 AM IST*
 
+</div>
 
-💻
-Code Wizard
-Generate Python code (e.g., Fibonacci sequence, data analysis) with one click.
+---
 
+## ✨ Features ✨
 
-📊
-Graph Execution
-Toggle interactive Plotly charts to visualize code output.
+| Icon | Feature | Description |
+|------|---------|-------------|
+| 💻 | **Code Wizard** | Generate Python code (e.g., Fibonacci sequence, data analysis) with one click |
+| 📊 | **Graph Execution** | Toggle interactive Plotly charts to visualize code output |
+| 🚀 | **Deploy Master** | Create deployment configs for Docker, FastAPI, Streamlit, or AWS Lambda |
+| 🎨 | **Neon UI** | Sleek, customizable cyber neon design with glowing green accents |
+| ⏱️ | **Real-Time Feedback** | Test your Ollama server connection from the sidebar |
+| 🔄 | **User-Friendly Tabs** | Seamlessly switch between coding and deployment tasks |
 
+---
 
-🚀
-Deploy Master
-Create deployment configs for Docker, FastAPI, Streamlit, or AWS Lambda.
+## 🛠️ Prerequisites
 
-
-🎨
-Neon UI
-Sleek, customizable cyber neon design with glowing green accents.
-
-
-⏱️
-Real-Time Feedback
-Test your Ollama server connection from the sidebar.
-
-
-🔄
-User-Friendly Tabs
-Seamlessly switch between coding and deployment tasks.
-
-
-
-🛠️ Prerequisites 🛠️
 Before launching NeonCoder AI, ensure these are installed:
 
+| Requirement | Details |
+|-------------|---------|
+| 🐍 **Python 3.8+** | Required runtime environment |
+| 📂 **Git** | For cloning the repository |
+| 🤖 **Ollama** | Local AI model server with qwen2.5-coder:7b |
+| 📦 **Python Libraries** | streamlit, requests, pandas, plotly-express |
 
+---
 
-Requirement
-Details
+## 📥 Installation
 
-
-
-🐍 Python 3.8+
-Required runtime environment.
-
-
-📂 Git
-For cloning the repository.
-
-
-🤖 Ollama
-Local AI model server with qwen2.5-coder:7b.
-
-
-📦 Python Libraries
-streamlit, requests, pandas, plotly-express.
-
-
-
-📥 Installation 📥
-Step 1: Clone the Repository
+### Step 1: Clone the Repository
+```bash
 # Navigate to your desired directory
 cd ~/Desktop
 
 # Clone the repo
-git clone https://github.com/PRATIK-4751/Streamlit_coder-Deployer.git
+git clone https://github.com/PRATIK-4751/Streamlit.git
 
 # Enter the project directory
-cd Streamlit_coder-Deployer
+cd Streamlit
+```
 
-Step 2: Set Up a Virtual Environment
+### Step 2: Set Up a Virtual Environment
+```bash
 # Create a virtual environment
 python -m venv venv
 
@@ -90,124 +68,119 @@ python -m venv venv
 venv\Scripts\activate
 # On macOS/Linux:
 source venv/bin/activate
+```
 
-Step 3: Install Dependencies
+### Step 3: Install Dependencies
+```bash
 # Install required packages
 pip install -r requirements.txt
+```
 
-If requirements.txt is missing, create it with:
+If `requirements.txt` is missing, create it with:
+```txt
 streamlit
 requests
 pandas
 plotly-express
+```
 
-Step 4: Set Up Ollama
+### Step 4: Set Up Ollama
+```bash
 # Install Ollama from https://ollama.ai/
 # Pull the model
 ollama pull qwen2.5-coder:7b
 
 # Start the server
 ollama serve
+```
 
-Ensure it runs on http://localhost:11434 (default port).
+> **Note:** Ensure it runs on `http://localhost:11434` (default port).
 
-▶️ Running the Application ▶️
+---
+
+## ▶️ Running the Application
 
 With the virtual environment active and Ollama running, start the app:
+
+```bash
 streamlit run app.py
+```
 
-(Replace app.py with your script name if different.)
+1. Open your browser at the URL Streamlit provides (usually `http://localhost:8501`)
+2. Test the connection in the sidebar by clicking **"Test Connection"**
+3. A ✅ 🟢 **Ollama is running** indicates success!
 
-Open your browser at the URL Streamlit provides (usually http://localhost:8501).
+---
 
-Test the connection in the sidebar by clicking "Test Connection". A ✅ 🟢 Ollama is running indicates success!
+## 🎮 Usage Instructions
 
+### 💻 Code Wizard Tab
 
+| Action | Instruction |
+|--------|-------------|
+| 📝 **Describe Task** | Enter a task (e.g., "Create a Fibonacci function") in the text area |
+| 🔧 **Generate Code** | Click "Generate Code" to get Python code |
+| 📈 **Graph Toggle** | Enable "Enable Graph Execution" for Plotly charts if supported |
+| 👁️ **Output** | View generated code and graphs in the UI |
 
-🎮 Usage Instructions 🎮
-💻 Code Wizard Tab
+### 🚀 Deploy Master Tab
 
+| Action | Instruction |
+|--------|-------------|
+| 🌐 **Select Platform** | Choose Docker, FastAPI, Streamlit, or AWS Lambda |
+| 📝 **Describe Deployment** | Enter details (e.g., "Docker for a web app") |
+| 🛠️ **Build Deployment** | Click "Build Deployment" for scripts/configs |
 
+---
 
-Action
-Instruction
+## 🎨 Customization
 
+- **Neon UI**: Tweak the CSS in the `st.markdown()` style block to adjust colors or effects
+- **Model Config**: Modify `OLLAMA_HOST` or `MODEL` variables for different servers/models
 
+---
 
-📝 Describe Task
-Enter a task (e.g., "Create a Fibonacci function") in the text area.
+## ⚠️ Troubleshooting
 
+| Issue | Solution |
+|-------|----------|
+| 🔴 **Ollama Error** | Ensure server is running at `http://localhost:11434`; check firewall |
+| 📦 **Module Missing** | Run `pip install -r requirements.txt` or install missing packages |
+| 📉 **Graph Failure** | Ensure code uses compatible data (e.g., Pandas DataFrames) |
 
-🔧 Generate Code
-Click "Generate Code" to get Python code.
+---
 
+## 🤝 Contributing
 
-📈 Graph Toggle
-Enable "Enable Graph Execution" for Plotly charts if supported.
-
-
-👁️ Output
-View generated code and graphs in the UI.
-
-
-🚀 Deploy Master Tab
-
-
-
-Action
-Instruction
-
-
-
-🌐 Select Platform
-Choose Docker, FastAPI, Streamlit, or AWS Lambda.
-
-
-📝 Describe Deployment
-Enter details (e.g., "Docker for a web app").
-
-
-🛠️ Build Deployment
-Click "Build Deployment" for scripts/configs.
-
-
-
-🎨 Customization 🎨
-
-Neon UI: Tweak the CSS in the st.markdown() style block to adjust colors or effects.
-Model Config: Modify OLLAMA_HOST or MODEL variables for different servers/models.
-
-
-⚠️ Troubleshooting ⚠️
-
-
-
-Issue
-Solution
-
-
-
-🔴 Ollama Error
-Ensure server is running at http://localhost:11434; check firewall.
-
-
-📦 Module Missing
-Run `pip list
-
-
-📉 Graph Failure
-Ensure code uses compatible data (e.g., Pandas DataFrames).
-
-
-
-🤝 Contributing 🤝
 Fork this repo, enhance it, and submit pull requests! Collaborate via GitHub or add contributors in the repo settings.
 
-📜 License 📜
-Open-source project. Use and modify freely, but credit Pratik (PRATIK-4751).
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-🙌 Acknowledgments 🙌
+---
 
-Built with ❤️ by Pratik.
-Powered by Streamlit, Ollama, and the Qwen2.5-coder model.
-Gratitude to the open-source community! 🌍
+## 📜 License
+
+This project is open-source. Use and modify freely, but please credit **Pratik (PRATIK-4751)**.
+
+---
+
+## 🙌 Acknowledgments
+
+- Built with ❤️ by **[Pratik](https://github.com/PRATIK-4751)**
+- Powered by **Streamlit**, **Ollama**, and the **Qwen2.5-coder** model
+- Gratitude to the open-source community! 🌍
+
+---
+
+<div align="center">
+
+### ⭐ Star this repository if you found it helpful!
+
+[![GitHub stars](https://img.shields.io/github/stars/PRATIK-4751/Streamlit?style=social)](https://github.com/PRATIK-4751/Streamlit/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/PRATIK-4751/Streamlit?style=social)](https://github.com/PRATIK-4751/Streamlit/network/members)
+
+</div>
