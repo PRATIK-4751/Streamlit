@@ -24,7 +24,6 @@
 |------|---------|-------------|
 | 💻 | **Code Wizard** | Generate Python code (e.g., Fibonacci sequence, data analysis) with one click |
 | 📊 | **Graph Execution** | Toggle interactive Plotly charts to visualize code output |
-| 🚀 | **Deploy Master** | Create deployment configs for Docker, FastAPI, Streamlit, or AWS Lambda |
 | 🎨 | **Neon UI** | Sleek, customizable cyber neon design with glowing green accents |
 | ⏱️ | **Real-Time Feedback** | Test your Ollama server connection from the sidebar |
 | 🔄 | **User-Friendly Tabs** | Seamlessly switch between coding and deployment tasks |
@@ -98,7 +97,7 @@ ollama serve
 
 ---
 
-## ▶️ Running the Application
+##  Running the Application
 
 With the virtual environment active and Ollama running, start the app:
 
@@ -108,13 +107,13 @@ streamlit run app.py
 
 1. Open your browser at the URL Streamlit provides (usually `http://localhost:8501`)
 2. Test the connection in the sidebar by clicking **"Test Connection"**
-3. A ✅ 🟢 **Ollama is running** indicates success!
+3. A  🟢 **Ollama is running** indicates success!
 
 ---
 
-## 🎮 Usage Instructions
+##  Usage Instructions
 
-### 💻 Code Wizard Tab
+###  Code Wizard Tab
 
 | Action | Instruction |
 |--------|-------------|
@@ -122,15 +121,6 @@ streamlit run app.py
 | 🔧 **Generate Code** | Click "Generate Code" to get Python code |
 | 📈 **Graph Toggle** | Enable "Enable Graph Execution" for Plotly charts if supported |
 | 👁️ **Output** | View generated code and graphs in the UI |
-
-### 🚀 Deploy Master Tab
-
-| Action | Instruction |
-|--------|-------------|
-| 🌐 **Select Platform** | Choose Docker, FastAPI, Streamlit, or AWS Lambda |
-| 📝 **Describe Deployment** | Enter details (e.g., "Docker for a web app") |
-| 🛠️ **Build Deployment** | Click "Build Deployment" for scripts/configs |
-
 ---
 
 ## 🎨 Customization
@@ -150,37 +140,16 @@ streamlit run app.py
 
 ---
 
-## 🤝 Contributing
-
-Fork this repo, enhance it, and submit pull requests! Collaborate via GitHub or add contributors in the repo settings.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ---
 
-## 📜 License
-
-This project is open-source. Use and modify freely, but please credit **Pratik (PRATIK-4751)**.
-
 ---
-
-## 🙌 Acknowledgments
-
 - Built with ❤️ by **[Pratik](https://github.com/PRATIK-4751)**
 - Powered by **Streamlit**, **Ollama**, and the **Qwen2.5-coder** model
-- Gratitude to the open-source community! 🌍
 
 ---
 
 <div align="center">
 
 ### ⭐ Star this repository if you found it helpful!
-
-[![GitHub stars](https://img.shields.io/github/stars/PRATIK-4751/Streamlit?style=social)](https://github.com/PRATIK-4751/Streamlit/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/PRATIK-4751/Streamlit?style=social)](https://github.com/PRATIK-4751/Streamlit/network/members)
 
 </div>
